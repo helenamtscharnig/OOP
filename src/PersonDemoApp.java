@@ -37,8 +37,6 @@ public class PersonDemoApp {
 
         System.out.println("_____");
 
-
-
     }
 
     public static void printPerson (Person p) {     //Methode erstellen, um nicht jedes Mal sout machen zu müssen.
