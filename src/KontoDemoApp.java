@@ -1,8 +1,8 @@
 public class KontoDemoApp {
 
     public static void main(String[] args) {
-        Konto K01 = new Konto();
-        K01.setInhaber("Max Mustermann");
+        Konto K01 = new Konto("Max Muster");
+        //K01.setInhaber("Max Mustermann");
         K01.print();
 
         K01.aufbuchen(1000);

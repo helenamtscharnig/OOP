@@ -3,10 +3,16 @@ public class Konto {
     private String inhaber;
     private double kontostand;
 
-    public void setInhaber(String inhaber){
-        this.inhaber = inhaber;
+    public Konto(String inhaber){        //Methode ohne Rückgabetyp schreiben, bekommt speziellen Namen: Konstruktor
+        this.inhaber = inhaber;         // Quasi Pflichtfeld, ich kann ohne einen Namen kein Konto erstellen.
         kontostand = 0;
     }
+
+    //public void setInhaber(String inhaber){
+       // this.inhaber = inhaber;
+       // kontostand = 0;
+    //}
+
     public void aufbuchen(double betrag){
         if (betrag > 0){
             kontostand = kontostand + betrag;
